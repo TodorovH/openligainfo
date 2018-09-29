@@ -16,10 +16,10 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="dashboard" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="matches/show">Matches</a>
-                        <a class="dropdown-item" href="gamedays/show">Gamedays</a>
-                        <a class="dropdown-item" href="seasons/show">Seasons</a>
-                        <a class="dropdown-item" href="teams/show">Teams</a>
+                        <a class="dropdown-item" href="matches">Matches</a>
+                        <a class="dropdown-item" href="gamedays">Gamedays</a>
+                        <a class="dropdown-item" href="seasons">Seasons</a>
+                        <a class="dropdown-item" href="teams">Teams</a>
                     </div>
                 </li>
                 <li class="nav-item">

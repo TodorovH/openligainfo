@@ -16,5 +16,8 @@ Route::get('/dashboard', 'PagesController@dashboard');
 Route::get('/about', 'PagesController@about');
 
 Route::resource('matches', 'MatchesController');
+Route::resource('gamedays', 'GamedaysController');
+Route::resource('seasons', 'SeasonsController');
+Route::resource('teams', 'TeamsController');
 
 Auth::routes();
