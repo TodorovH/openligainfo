@@ -19,10 +19,10 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body style="background-image:url('img/body-bg.jpeg');background-size:cover;">
     <div id="app">
         <main class="py-4">
-            {{-- @include('inc.navbar') --}}
+            @include('inc.navbar')
             @yield('content')
         </main>
     </div>

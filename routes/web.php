@@ -12,5 +12,9 @@
 */
 
 Route::get('/', 'PagesController@index');
+Route::get('/dashboard', 'PagesController@dashboard');
+Route::get('/about', 'PagesController@about');
 
 Route::resource('matches', 'MatchesController');
+
+Auth::routes();

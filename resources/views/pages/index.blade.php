@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center" style="opacity:0.9;">
         <h1>Open Liga Info</h1>
         <br>
         <p>Get some info for Matches, Gamedays, Seasons and Teams</p>
