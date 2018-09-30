@@ -1,3 +1,18 @@
+
+Landing page: http://localhost/openligainfo/public/
+Framework: Laravel
+I use the chance to learn Laravel and use Json to get the data from the API,
+because i'm using Json every day in my work.
+Laravel is fantastic framework, very intuitive and everythink is easy to be done.
+I use artisan to create my controllers and models.
+Migration for the tables and tinker to put some data in the DB if i need it.
+For the front-end i used the bootstrap classes.
+All links works, just some of them are showing raw json array.
+That is for 8 hours, maybe less, not at once.
+
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
