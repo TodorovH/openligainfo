@@ -13,7 +13,7 @@ class Team extends Model
 
     static public function getTeam($id) {
 
-        $jsonArr = json_decode(file_get_contents('https://www.openligadb.de/api/getavailableteams/bl1/2018'), true);
+        $jsonArr = self::getAllTeams();
 
         foreach ($jsonArr as $arr) {
             

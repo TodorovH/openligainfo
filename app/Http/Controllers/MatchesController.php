@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Match;
 
 class MatchesController extends Controller
 {
@@ -13,9 +14,9 @@ class MatchesController extends Controller
      */
     public function index()
     {
-        $data = json_decode(file_get_contents('https://www.openligadb.de/api/getmatchdata/bl1'), true);
-
-        return $data;
+        $allMatches = Match::getAllMatches();
+        
+        return view('matches.showAll')->with('allMatches', $allMatches);
     }
 
     /**
@@ -47,7 +48,7 @@ class MatchesController extends Controller
      */
     public function show($id)
     {
-        //
+        return Match::getMatch($id);
     }
 
     /**
