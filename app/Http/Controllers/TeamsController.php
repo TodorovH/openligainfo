@@ -14,7 +14,9 @@ class TeamsController extends Controller
      */
     public function index()
     {
-        return view('teams.showAll', Team::getAllTeams());
+        $allTeams = Team::getAllTeams();
+
+        return view('teams.showAll')->with('allTeams', $allTeams);
     }
 
     /**
@@ -46,9 +48,7 @@ class TeamsController extends Controller
      */
     public function show($id)
     {
-        // $data = json_decode(file_get_contents('https://www.openligadb.de/api/getavailableteams/bl1/2018'), true);
-
-        // return $data;
+        return Team::getTeam($id);
     }
 
     /**
